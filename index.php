@@ -29,5 +29,6 @@
 	echo 'Nome | Telefone | E-mail';
 	while($linha = $stm->fetch()) {
 		echo $linha['nome'].' | '.$linha['telefone'].' | '.$linha['email'].'<br>';
+		echo'SNACK SNACK';
 	}
 ?>
